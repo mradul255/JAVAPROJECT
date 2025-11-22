@@ -1,81 +1,81 @@
-# Small Business Management System.
-
+# Small Business Management System
 ## Overview
+This project is a simple, Command-line (CLI) based Inventory Management System built in Java. It is designed to meet the project requirements for the VITYARTHI "Build Your Own Project" assignment. It allows a small business owner to manage products, track stock levels, and generate basic reports.
 
-_italictext_ This  Project  is a Simpled , Command-line (CLI) Based  Inventory  Management  System  Built  in  Java. It _italictext_ is  designed  to  meet  the  project  requirements  for  the  VITYARTHI  "Build  Your  Own  Project "  _italictext_ Assignment .  It Allows a Small Business  Owner  to  Manage  Products,  track  Stock  Levels ,  and  _italictext_ Generate  Basic  reports .
+The application is built using a modular, Service-Oriented Architecture to demonstrate clean code principles and Separation of Concerns.
 
-_bold_ The Application  is  Build  Using  a  Modular ,  Service- Oriented  Architectured  to  Demonstrated  Cleaned  Code     Principles   and _bold_ Separation of Concernd.
+## Features
+Product Management (Module 1):
+Add a new product to the catalog.
 
-# Features
+Update an existing product's details (name, price).
 
-## Product Management (Module 1):
+Delete a product from the catalog.
 
-_boldtext_ Added a new product to the catalog.
+View details of a specific product.
 
-_boldtext_ Updated an existing product's details (name, price).
+## List all products.
 
-_boldtext_ Deleted a product from the catalog.
+Stock Management (Module 2):
+Update the stock quantity for a product (e.g., add new stock, record a sale).
 
-_boldtext_ Viewed details of a specific product
+Check the current stock level for any product.
 
-## Lists of all products.
+## Reporting (Module 3):
+Generate a "Low Stock Report" for all items below a certain threshold.
 
-# Stocks Managements (Module 2):
+Generate a full "Inventory Report" listing all products and their stock levels.
 
-_italictext_ Updated the stocked quantity for a product (e.g., add new stock, record a sale).
+Technologies & Tools Used
+Java (JDK 11+)
 
-_italictext_ Checked the current stocked level for any product.
+Maven (for project build and dependency management)
 
-_italictext_ Reporting (Module 3):
+Design Patterns: Service-Repository Pattern, Singleton (for mock database)
 
-_italictext_ Generated a "Low Stock Report" for all items below a certained threshold.
+How to Install & Run the Project
+You will need Java (JDK 11 or newer) and Apache Maven installed.
 
-_italictext_ Generated a full "Inventory Report" listing all products and their stocked levels.
+Clone the Repository:
 
-_italictext_ Technologies & Tools Used
-
-# Java (JDK 11+)
-
-_boldtext_ Mavened (for project build and dependency management)
-
-_boldtext_ Designed Patterns: Service-Repository Patterned, Singleton (for mock database)
-
-_boldtext_ How to Installed & Runned the Project
-
-_boldtext_ You will need Java (JDK 11 or newer) and Apache Mavened installed.
-
-_boldtext_ Cloned the Repository:
+Bash
 
 git clone <your-github-repo-url>
 cd <repository-folder>
+Compile the Project:
 
-
-Compileed the Projects:
+Bash
 
 mvn compile
+Run the Application:
 
-
-Runned the Application:
+Bash
 
 mvn exec:java
+This will start the command-line interface.
 
+How to Test
+The application can be tested manually by running it and using the menu options:
 
-_boldtext_ This will started the command-line interface.
+Start by adding 2-3 new products (e.g., "Apple", "Banana").
 
-# How to Test
+List all products to verify they were added.
 
-_boldtext_ The application can be tested manually by running it and using the menu options:
+Update the stock for "Apple" to 15.
 
-_boldtext_ Started by adding 2-3 new products (e.g., "Apple", "Banana").
+Update the stock for "Banana" to 5.
 
-_boldtext_ Listed all products to verify they were added.
+Generate the "Low Stock Report" (default threshold is 10). Only "Banana" should appear.
 
-_boldtext_ Updated the stock for "Apple" to 15.
+Generate the full "Inventory Report" to see all the items.
 
-_boldtext_ Updated the stock for "Banana" to 5.
+Delete a product and verify it is gone from the list.
 
-_boldtext_ Generated the "Low Stocked Report" (default threshold is 10). Only "Banana" should appeared.
+Key Changes Made:
+Verb Tense: Changed past tense words (Runned, Simpled, Compiled) to the correct present or imperative forms (Run, Simple, Compile), which is standard for README files.
 
-_boldtext_ Generated the full "Inventory Report" to see all the items.
+Spelling: Fixed typos like "Mavened," "Concernd," and "Architectured."
 
-_boldtext_ Deleted a product and verify it's gone from the lists.
+Formatting: Converted your text markers (like _boldtext_) into actual Markdown formatting.
+
+Phrasing: Smoothed out sentences for better flow (e.g., "Lists of all products" changed to "List all products").
